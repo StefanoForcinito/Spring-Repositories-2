@@ -1,0 +1,15 @@
+server:
+  port: 5050
+spring:
+  application:
+    name: repositories-due
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/repositories-due
+    username: root
+    password: stefano.forcinito
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    show-sql: true
